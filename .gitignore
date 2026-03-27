@@ -1,0 +1,17 @@
+# Ignore the massive dataset folders
+data/
+dataset/
+
+# Ignore the virtual environment
+venv/
+.venv/
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore heavy model checkpoints (Optional, but recommended if >100MB)
+checkpoints/*.pth
