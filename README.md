@@ -160,3 +160,27 @@ Unlike traditional CNN models, this system:
 ---
 
 ## 📁 Project Structure
+Medi_Swin/
+│── arch/
+│ ├── generator.py
+│ ├── discriminator.py
+│
+│── data/
+│ ├── raw/
+│
+│── dataset/
+│ └── xray_dataset.py
+│
+│── utils/
+│ ├── degradation.py
+│ ├── losses.py
+│ ├── metrics.py
+│── config.py
+│── train.py
+│── test.py
+│── unseen.py
+│── visualize.py
+│── requirements.txt
+
+---
+
