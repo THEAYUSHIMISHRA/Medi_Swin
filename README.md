@@ -152,6 +152,7 @@ Unlike traditional CNN models, this system:
 ---
 
 ## 📁 Project Structure
+``` id="structure-block"
 Medi_Swin/
 │── arch/                              # Generator + Discriminator
 │ ├── generator.py
@@ -174,7 +175,7 @@ Medi_Swin/
 │── unseen.py
 │── visualize.py
 │── requirements.txt
-``` id="structure-block"
+```
 
 ---
 
