@@ -184,3 +184,17 @@ Medi_Swin/
 
 ---
 
+
+---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/your-username/Medi_Swin.git
+cd Medi_Swin
+
+# Create environment
+conda create -n mediswin python=3.10
+conda activate mediswin
+
+pip install -r requirements.txt
