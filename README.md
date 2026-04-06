@@ -132,9 +132,7 @@ Uses **TTUR (Two-Time Scale Update Rule)** for stable GAN training:
 
 ✔ Ensures both **numerical + visual fidelity**
 
-\[
-\mathcal{L}_{total} = \lambda_1 \mathcal{L}_{L1} + \lambda_2 \mathcal{L}_{perc} + \mathcal{L}_{GAN}
-\]
+$... \mathcal{L}_{total} = \lambda_1 \mathcal{L}_{L1} + \lambda_2 \mathcal{L}_{perc} + \mathcal{L}_{GAN}...$
 
 ---
 
