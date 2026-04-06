@@ -130,21 +130,13 @@ Unlike traditional CNN models, this system:
 
 ## 📊 Results
 
-### 🟢 Baseline Performance
-
-| Metric | Value |
-|-------|------|
-| PSNR  | 44.54 dB |
-| SSIM  | 0.9934 |
-
-### 🔴 Stress-Test Performance
-
-| Metric | Value |
-|-------|------|
-| PSNR  | 30.75 dB |
-| SSIM  | 0.9038 |
+| Mode | PSNR | SSIM |
+|-----|------|------|
+| 🟢 Baseline Performance| 44.54 dB | 0.9934 |
+| 🔴 Stress-Test Performance | 30.75 dB | 0.9038 |
 
 ---
+
 
 ## 🖼️ Visual Results
 
