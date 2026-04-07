@@ -148,7 +148,7 @@ Uses **TTUR (Two-Time Scale Update Rule)** for stable GAN training:
 
 ## 🖼️ Visual Results
 
-![Results](results/resepoch30.png)
+![Results](results/resepoch30 .png)
 
 ### ✨ Observations
 
@@ -208,14 +208,18 @@ scikit-image
 ```bash
 git clone https://github.com/your-username/Medi_Swin.git
 cd Medi_Swin
-
 # Create environment
 conda create -n mediswin python=3.10
 conda activate mediswin
-
 pip install -r requirements.txt
 ```
-
+## 🚜Train
+```bash
+# Run on terminal
+python train.py
+# For Visualization
+python visualize.py
+```
 ---
 
 ## ⚡ Key Strengths
