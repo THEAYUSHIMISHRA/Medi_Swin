@@ -104,7 +104,7 @@ Uses **TTUR (Two-Time Scale Update Rule)** for stable GAN training:
 
 | Parameter | Value |
 |----------|------|
-| Epochs | 30 |
+| Epochs | 40 |
 | Batch Size | 4 |
 | Image Size | 224 |
 | LR (Generator) | 5e-5 |
