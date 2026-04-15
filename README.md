@@ -86,7 +86,7 @@ Uses **TTUR (Two-Time Scale Update Rule)** for stable GAN training:
 * **LR_D:** `5e-5`
 * ✔ Learn structure + textures
 * ✔ Moderate degradation
-*    Initial Phase (Epochs 1-20): 50% probability of $5 \times 5$ Gaussian Blur, $\sigma=10$ Noise, and $0.5\text{x}$ to $0.8\text{x}$ Scaling.
+* ✔ 50% probability of $5 \times 5$ Gaussian Blur, $\sigma=10$ Noise, and $0.5\text{x}$ to $0.8\text{x}$ Scaling.
 
 ---
 
@@ -94,8 +94,7 @@ Uses **TTUR (Two-Time Scale Update Rule)** for stable GAN training:
 * **LR_G:** `5e-5` (4x slower than initial)
 * **LR_D:** `1e-5` (5x slower than initial)
 * ✔ Lower LR to stabilize and "settle" weights after Epoch 19 spikes
-* ✔ Heavy degradation: σ≈20 noise, ~0.4x scaling for fine-tuning
-* ✔ Intermediate Phase (Epochs 21-30): 80% probability of $7 \times 7$ Gaussian Blur, $\sigma=15$ Noise, and $0.4\text{x}$ to $0.6\text{x}$ Scaling.
+* ✔ 80% probability of $7 \times 7$ Gaussian Blur, $\sigma=15$ Noise, and $0.4\text{x}$ to $0.6\text{x}$ Scaling.
 
 ---
 
@@ -103,7 +102,7 @@ Uses **TTUR (Two-Time Scale Update Rule)** for stable GAN training:
 * **LR_G:** `2e-5`
 * **LR_D:** `5e-6`
 * ✔ Prevents overfitting and keeps the Discriminator from becoming too aggressive
-* ✔ Extreme Phase (Epochs 31-40): 90% probability of $9 \times 9$ Gaussian Blur, $\sigma=20$ Noise, and $0.2\text{x}$ to $0.4\text{x}$ Scaling without gradient crashing.
+* ✔ 90% probability of $9 \times 9$ Gaussian Blur, $\sigma=20$ Noise, and $0.2\text{x}$ to $0.4\text{x}$ Scaling without gradient crashing.
 
 ---
 
