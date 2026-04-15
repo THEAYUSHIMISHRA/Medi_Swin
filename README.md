@@ -152,7 +152,7 @@ Epoch 30
 ![Results](results/resepoch30.png)
 
 Epoch 40
-![Results](results/test3final39.png)
+![Results](results/test39.png)
 
 ### ✨ Observations
 
