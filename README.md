@@ -244,6 +244,5 @@ python unseen.py          # For Testing
 MRI / CT support • Real-time inference • Web deployment  
 
 ---
-
-## 📜 License
-MIT
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
