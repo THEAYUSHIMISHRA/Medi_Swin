@@ -148,7 +148,8 @@ Uses **TTUR (Two-Time Scale Update Rule)** for stable GAN training:
 | Mode | PSNR | SSIM |
 |-----|------|------|
 | 🟢 Baseline Performance| 44.54 dB | 0.9934 |
-| 🔴 Stress-Test Performance | 30.75 dB | 0.9038 |
+| 🟡 Stress-Test Performance | 30.75 dB | 0.9038 |
+| 🔴 High-Precision Refinement | 31.61 dB | 0.9089 |
 
 ---
 
